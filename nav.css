@@ -1,0 +1,40 @@
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: -webkit-linear-gradient(
+      right,
+      #003366,
+      #004080,
+      #0059b3,
+      #0073e6
+    );
+    transition: all 0.5s ease;
+  }
+  .sidebar header {
+    line-height: 70px;
+    text-align: center;
+    background: #063146;
+  }
+  .sidebar img {
+    max-width: 50px;
+    margin-top: 20px;
+  }
+  .sidebar ul a {
+    text-decoration: none;
+    display: block;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.4s;
+  }
+  ul li:hover a {
+    padding-left: 60px;
+  }
+  .sidebar ul a i {
+    margin-right: 16px;
+  }
